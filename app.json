@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "sharedAlbumTEMP",
-    "slug": "sharedAlbumTEMP",
+    "name": "Photo-Gallery",
+    "slug": "Photo-Gallery",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
