@@ -8,8 +8,16 @@ const Stack = createStackNavigator();
 const Navigator = () => {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Albums" component={Albums} />
-      <Stack.Screen name="Shared Albums" component={SharedAlbums} />
+      <Stack.Screen
+        name="Albums"
+        component={Albums}
+        options={{ headerTitleAlign: 'center' }}
+      />
+      <Stack.Screen
+        name="Shared Albums"
+        component={SharedAlbums}
+        options={{ headerTitleAlign: 'center' }}
+      />
     </Stack.Navigator>
   );
 };
