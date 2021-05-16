@@ -1,12 +1,20 @@
 import React from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import theme from '../../assets/themes/index';
+import albumPage from '../../assets/data/albumPage';
+import Card from './Card';
 
 const Albums = ({ navigation }) => {
   return (
     <>
       <ScrollView>
-        <View style={styles.albumContainer}></View>
+        <View style={styles.albumContainer}>
+          {albumPage.map((item) => (
+            <View key={item.id}>
+              <Card item={item} />
+            </View>
+          ))}
+        </View>
       </ScrollView>
     </>
   );

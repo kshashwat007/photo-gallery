@@ -55,7 +55,7 @@ const albumPage = [
       {
         id: 3,
         image: avatar3
-      },
+      }
     ]
   },
   {
@@ -75,7 +75,7 @@ const albumPage = [
       {
         id: 6,
         image: avatar6
-      },
+      }
     ]
   },
   {
@@ -91,7 +91,7 @@ const albumPage = [
       {
         id: 8,
         image: avatar8
-      },
+      }
     ]
   },
   {
@@ -107,7 +107,7 @@ const albumPage = [
       {
         id: 10,
         image: avatar10
-      },
+      }
     ]
   },
   {
@@ -127,7 +127,7 @@ const albumPage = [
       {
         id: 13,
         image: avatar13
-      },
+      }
     ]
   },
   {
@@ -147,7 +147,7 @@ const albumPage = [
       {
         id: 16,
         image: avatar16
-      },
+      }
     ]
   },
   {
@@ -167,11 +167,11 @@ const albumPage = [
       {
         id: 19,
         image: avatar19
-      },
+      }
     ]
   },
   {
-    id: 8,
+    id: 9,
     title: 'Cars',
     user: 'Claire',
     background: image9,
@@ -183,9 +183,9 @@ const albumPage = [
       {
         id: 20,
         image: avatar20
-      },
+      }
     ]
-  },
+  }
 ];
 
 export default albumPage;
