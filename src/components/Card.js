@@ -6,6 +6,7 @@ import {
   StyleSheet,
   Pressable
 } from 'react-native';
+import theme from '../../assets/themes/index';
 
 const Card = ({ item }) => {
   return (
@@ -25,7 +26,16 @@ const Card = ({ item }) => {
 };
 
 const styles = StyleSheet.create({
-  imageBackground: {},
+  imageBackground: {
+    resizeMode: 'cover',
+    overflow: 'hidden',
+    height: theme.imageHeight.s,
+    margin: theme.spacing.m,
+    marginHorizontal: theme.spacing.m,
+    paddingHorizontal: theme.spacing.m,
+    borderRadius: theme.borderRadius.m,
+    justifyContent: 'center'
+  },
   imageContentContainer: {},
   imageTitle: {},
   imageSubtitle: {}
