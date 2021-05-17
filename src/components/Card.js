@@ -7,7 +7,7 @@ import {
   Pressable
 } from 'react-native';
 import theme from '../../assets/themes/index';
-import Avatar from './Avatars';
+import Avatars from './Avatars';
 
 const Card = ({ item }) => {
   return (
@@ -22,7 +22,7 @@ const Card = ({ item }) => {
           </View>
           {/* Avatars */}
           <View>
-            <Avatar />
+            <Avatars avatars={item.avatars} />
           </View>
         </View>
       </Pressable>
