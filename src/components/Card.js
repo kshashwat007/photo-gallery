@@ -9,10 +9,10 @@ import {
 import theme from '../../assets/themes/index';
 import Avatars from './Avatars';
 
-const Card = ({ item }) => {
+const Card = ({ item, navigation }) => {
   return (
     <ImageBackground source={item.background} style={styles.imageBackground}>
-      <Pressable onPress={() => console.log(`Pressed ${item.title}`)}>
+      <Pressable onPress={() => navigation.navigate('Shared Albums')}>
         <View style={styles.imageContentContainer}>
           <View>
             <Text style={styles.imageTitle}>{item.title}</Text>
