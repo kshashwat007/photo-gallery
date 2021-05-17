@@ -7,17 +7,22 @@ import {
   Pressable
 } from 'react-native';
 import theme from '../../assets/themes/index';
+import Avatar from './Avatars';
 
 const Card = ({ item }) => {
   return (
     <ImageBackground source={item.background} style={styles.imageBackground}>
-      <Pressable>
+      <Pressable onPress={() => console.log(`Pressed ${item.title}`)}>
         <View style={styles.imageContentContainer}>
           <View>
             <Text style={styles.imageTitle}>{item.title}</Text>
             <Text
               style={styles.imageSubtitle}
             >{`Created by ${item.user}`}</Text>
+          </View>
+          {/* Avatars */}
+          <View>
+            <Avatar />
           </View>
         </View>
       </Pressable>
@@ -31,14 +36,19 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     height: theme.imageHeight.s,
     margin: theme.spacing.m,
-    marginHorizontal: theme.spacing.m,
     paddingHorizontal: theme.spacing.m,
     borderRadius: theme.borderRadius.m,
     justifyContent: 'center'
   },
   imageContentContainer: {},
-  imageTitle: {},
-  imageSubtitle: {}
+  imageTitle: {
+    ...theme.textVariants.h1,
+    color: theme.colors.white
+  },
+  imageSubtitle: {
+    ...theme.textVariants.body2,
+    color: theme.colors.white
+  }
 });
 
 export default Card;
