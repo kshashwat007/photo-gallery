@@ -40,7 +40,11 @@ const styles = StyleSheet.create({
     borderRadius: theme.borderRadius.m,
     justifyContent: 'center'
   },
-  imageContentContainer: {},
+  imageContentContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between'
+  },
   imageTitle: {
     ...theme.textVariants.h1,
     color: theme.colors.white

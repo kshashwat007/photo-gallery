@@ -9,8 +9,8 @@ const Albums = ({ navigation }) => {
     <>
       <ScrollView>
         <View style={styles.albumContainer}>
-          {albumPage.map((item) => (
-            <View key={item.id}>
+          {albumPage.map((item, index) => (
+            <View key={index}>
               <Card item={item} />
             </View>
           ))}
