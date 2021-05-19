@@ -12,7 +12,9 @@ import Avatars from './Avatars';
 const Card = ({ item, navigation }) => {
   return (
     <ImageBackground source={item.background} style={styles.imageBackground}>
-      <Pressable onPress={() => navigation.navigate('Shared Albums')}>
+      <Pressable
+        onPress={() => navigation.navigate('Shared Albums', { album: item })}
+      >
         <View style={styles.imageContentContainer}>
           <View>
             <Text style={styles.imageTitle}>{item.title}</Text>
