@@ -1,6 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import Albums from '../components/Albums';
+import ImageGallery from '../components/sharedAlbums';
 import SharedAlbums from '../components/sharedAlbums';
 
 const Stack = createStackNavigator();

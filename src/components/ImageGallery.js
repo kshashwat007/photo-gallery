@@ -1,6 +1,8 @@
 import React from 'react';
 import { FlatList, Image, StyleSheet, Text, View } from 'react-native';
 import theme from '../../assets/themes';
+import backgroundImages from '../../assets/data/backgroundImages';
+import SharedAlbums from './sharedAlbums';
 
 const ListImage = ({ image }) => {
   return <Image source={image.background} style={styles.galleryImage} />;
@@ -14,7 +16,6 @@ const ImageGallery = ({ images }) => {
         data={images}
         keyExtractor={(item) => item.id}
         numColumns={3}
-        scrollEnabled={false}
         renderItem={({ item }) => <ListImage image={item} />}
       />
     </View>
