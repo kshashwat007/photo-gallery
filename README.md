@@ -5,9 +5,9 @@
 This is a photo gallery app developed in react-native using expo-cli. Inspired from figma tutorial by:- https://www.youtube.com/watch?v=By0ydHGSJ64&t=82s
 
 ### Screenshots
-![Screenshot_1621501384](https://user-images.githubusercontent.com/22960998/118951278-05cf2480-b96c-11eb-94ac-1fac10f6f53a.png)
-![Screenshot_1621501395](https://user-images.githubusercontent.com/22960998/118951424-24352000-b96c-11eb-8eec-065fad384e28.png)
-![Screenshot_1621501405](https://user-images.githubusercontent.com/22960998/118951461-2a2b0100-b96c-11eb-877e-ef5e6176a12d.png)
+<img src="https://user-images.githubusercontent.com/22960998/118951278-05cf2480-b96c-11eb-94ac-1fac10f6f53a.png" style=" width:100px ; height:100px " />
+<img src="https://user-images.githubusercontent.com/22960998/118951424-24352000-b96c-11eb-8eec-065fad384e28.png" style=" width:100px ; height:100px " />
+<img src="https://user-images.githubusercontent.com/22960998/118951461-2a2b0100-b96c-11eb-877e-ef5e6176a12d.png" style=" width:100px ; height:100px " />
 
 ## Available Scripts
 
