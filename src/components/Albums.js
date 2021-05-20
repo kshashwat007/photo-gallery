@@ -52,7 +52,7 @@ const Albums = ({ navigation, navigation: { setOptions } }) => {
       <BottomSheet
         ref={sheetRef}
         snapPoints={[250, 0]}
-        initialSnap={0}
+        initialSnap={1}
         borderRadius={10}
         renderContent={renderBottomSheetContent}
       />
