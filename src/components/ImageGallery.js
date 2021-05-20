@@ -1,8 +1,6 @@
 import React from 'react';
 import { FlatList, Image, StyleSheet, Text, View } from 'react-native';
 import theme from '../../assets/themes';
-import backgroundImages from '../../assets/data/backgroundImages';
-import SharedAlbums from './sharedAlbums';
 
 const ListImage = ({ image }) => {
   return <Image source={image.background} style={styles.galleryImage} />;
