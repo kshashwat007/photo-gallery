@@ -20,7 +20,7 @@ const BottomSheet = ({ handleClose }) => {
 
 const styles = StyleSheet.create({
   ContentWrapper: {
-    backgroundColor: theme.colors.lightGray,
+    backgroundColor: theme.colors.woodSmokeBlack,
     padding: theme.spacing.m,
     height: 250
   },
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     marginTop: theme.spacing.sm,
     marginHorizontal: theme.spacing.m,
     paddingVertical: theme.spacing.l,
-    backgroundColor: theme.colors.white,
+    backgroundColor: theme.colors.altBlack,
     borderRadius: theme.borderRadius.m,
     alignItems: 'center',
     shadowColor: theme.colors.black,
@@ -40,13 +40,14 @@ const styles = StyleSheet.create({
     shadowRadius: 8
   },
   buttonTitle: {
-    ...theme.textVariants.h2
+    ...theme.textVariants.h2,
+    color: theme.colors.white
   },
   buttonSmall: {
     marginTop: theme.spacing.m,
     marginHorizontal: theme.spacing.m,
     paddingVertical: theme.spacing.m,
-    backgroundColor: theme.colors.white,
+    backgroundColor: theme.colors.altBlack,
     borderRadius: theme.borderRadius.m,
     alignItems: 'center',
     shadowColor: theme.colors.black,

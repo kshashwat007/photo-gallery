@@ -16,7 +16,7 @@ const Albums = ({ navigation, navigation: { setOptions } }) => {
       headerRight: () => (
         <TouchableOpacity onPress={openBottomSheet}>
           <View style={styles.openSheetButton}>
-            <Feather name="plus" size={16} color={theme.colors.white} />
+            <Feather name="plus" size={20} color={theme.colors.white} />
           </View>
         </TouchableOpacity>
       )
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
   openSheetButton: {
     width: 32,
     height: 32,
-    backgroundColor: theme.colors.primary,
+    backgroundColor: theme.colors.altBlack,
     marginRight: theme.spacing.m,
     borderRadius: 16,
     alignItems: 'center',

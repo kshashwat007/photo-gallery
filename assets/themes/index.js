@@ -4,7 +4,9 @@ const theme = {
     white: '#FAFAFA',
     lightGray: '#EBEBEB',
     gray: '#CACACA',
-    black: '#000000'
+    black: '#000000',
+    altBlack: '#1F2121',
+    woodSmokeBlack: '#101111'
   },
   spacing: {
     xxs: 2,

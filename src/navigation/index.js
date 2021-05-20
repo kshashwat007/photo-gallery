@@ -12,12 +12,22 @@ const Navigator = () => {
       <Stack.Screen
         name="Albums"
         component={Albums}
-        options={{ headerTitleAlign: 'center' }}
+        options={{
+          headerTitleAlign: 'center',
+          headerStyle: {
+            backgroundColor: '#1F2121'
+          }
+        }}
       />
       <Stack.Screen
         name="Shared Albums"
         component={SharedAlbums}
-        options={{ headerTitleAlign: 'center' }}
+        options={{
+          headerTitleAlign: 'center',
+          headerStyle: {
+            backgroundColor: '#1F2121'
+          }
+        }}
       />
     </Stack.Navigator>
   );
