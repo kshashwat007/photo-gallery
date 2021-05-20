@@ -2,7 +2,7 @@
 
 ### Photo Gallery
 
-This is a photo gallery app developed in react-native using expo-cli
+This is a photo gallery app developed in react-native using expo-cli. Inspired from figma tutorial by:- https://www.youtube.com/watch?v=By0ydHGSJ64&t=82s
 
 ## Available Scripts
 
